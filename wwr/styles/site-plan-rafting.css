@@ -5,10 +5,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #6e32a7   ;
+  --primary-color: #1c9696   ;
   --secondary-color: #1d37ca ;
-  --accent1-color: #A42212;
-  --accent2-color: rgb(63, 148, 84);
+  --accent1-color: #d2e2d7;
+  --accent2-color: #065219;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Mooli";
@@ -19,12 +19,12 @@ Fonts are separated by a & */
   --headline-color-on-color: rgb(10, 10, 10); /* headlines on a colored background */ 
   --paragraph-color-on-white: #262229; /* paragraph text on a white background */ 
   --paragraph-color-on-color: rgb(2, 2, 2); /* paragraph text on a colored background */ 
-  --paragraph-background-color: #919e18  ;
+  --paragraph-background-color: #d2e2d7  ;
   --nav-link-color: #000102;
-  --paragraph-background-color: #b8a500  ;
-  --nav-background-color: #ffffff;
+  --paragraph-background-color: #1c9696  ;
+  --nav-background-color: #1d37ca;
   --nav-hover-link-color: rgb(255, 255, 255);
-  --nav-hover-background-color: #b8a500 ;
+  --nav-hover-background-color: #065219 ;
 }
 
 
