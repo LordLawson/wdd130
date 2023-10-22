@@ -1,23 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Playpen+Sans:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
 #content {
   max-width: 1000px;
   margin: 0 auto;
 }
+.home-title {
+  font-family: 'Roboto', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+  padding: 0;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
+}
+    
 body {
-   
-    padding: 4em;
-    font-size: 18px;
-   
-    background-color: white;
-  }
-  main section {text-align: center;}
+  background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 
-  .icon, .logo {width: 80px}
+}
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
+  .icon, .logo {width: 5px}
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
   h2 {
+    margin: 0;
     text-align: center;
+
   }
   hr {
     height: 3px;
@@ -39,9 +68,13 @@ body {
   }
   footer {
     background-color: #1c9696;
+    margin-top: 200px;
+    padding: 25px 50px;
   }
   footer a {
     text-decoration: none;
+    margin-top: 200px;
+    padding: 25px 50px;
   }
   p {
     font-family: var(--paragraph-font);
@@ -83,7 +116,7 @@ body {
     text-align: center;
     font-size: 1.2em;
     text-decoration: none;
-    padding:1em;
+    padding:8em;
     text-decoration: none;
   }
   nav  {
@@ -92,13 +125,19 @@ body {
     background-color: #1c9696;
   }
   
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
+  nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+    
+  nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
   .sitemap {
     display: grid;
     justify-content: center;
