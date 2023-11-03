@@ -46,8 +46,7 @@ main section img {
   h2 {
     margin: 0;
     text-align: center;
-
-  }
+   } 
   hr {
     height: 3px;
     margin: 35px 0;
@@ -59,9 +58,8 @@ main section img {
     color: var(--headline-color-on-color);
     background-color:#1c9696;
   }
-  header > h1, header > h2 {
+  header > h1, header > h2 
   
-  }
   #background {
     height: 725px;
     background-color:#1d37ca;
@@ -78,8 +76,8 @@ main section img {
   }
   p {
     font-family: var(--paragraph-font);
-    color:black);
-    padding: 1em;
+    color:black;
+    
   }
   .colors {
     width: 100%;
